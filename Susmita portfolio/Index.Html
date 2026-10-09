@@ -19,7 +19,7 @@
 
   <header id="about" class="hero">
     <div class="profile-container">
-      <!-- Photo file name ra path relative (./) banayera exact milayera halnuhos -->
+      <!-- Photo file name exact milayera halnuhos (eg: profile.jpg) -->
       <img src="./profile.jpg" alt="Susmita Adhikari Profile Picture" class="profile-pic">
     </div>
     <h1>Hi, I'm Susmita Adhikari 👋</h1>
@@ -46,6 +46,18 @@
     </div>
   </section>
 
-  <script src="./script.js"></script>
+  <!-- JavaScript script.js ko satta sidhai yahan halne: -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const demoBtn = document.getElementById('demoBtn');
+
+      if (demoBtn) {
+        demoBtn.addEventListener('click', () => {
+          alert('Hello Susmita! Interactive features work properly now.');
+        });
+      }
+    });
+  </script>
+
 </body>
 </html>
