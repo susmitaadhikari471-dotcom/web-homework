@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Susmita Adhikari | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
@@ -17,14 +17,18 @@
     </ul>
   </nav>
 
-  <header class="hero-section" id="about">
-    <img src="profile.jpg.jpg" alt="Susmita Adhikari Profile Picture" class="profile-img">
+  <header id="about" class="hero">
+    <div class="profile-container">
+      <!-- Photo file name ra path relative (./) banayera exact milayera halnuhos -->
+      <img src="./profile.jpg" alt="Susmita Adhikari Profile Picture" class="profile-pic">
+    </div>
     <h1>Hi, I'm Susmita Adhikari 👋</h1>
     <p class="subtitle">Computer Engineering Student at Seoul Theological University</p>
-    <button class="btn">Click For Demo Feature</button>
+    
+    <button id="demoBtn" class="btn">Click For Demo Feature</button>
   </header>
 
-  <section class="skills-section" id="skills">
+  <section id="skills" class="skills-section">
     <h2>My Technical Stack</h2>
     <div class="skills-grid">
       <div class="skill-card">
@@ -42,5 +46,6 @@
     </div>
   </section>
 
+  <script src="./script.js"></script>
 </body>
 </html>
