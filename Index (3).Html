@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Susmita Adhikari | Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Susmita .dev</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <header id="about" class="hero">
+    <div class="profile-container">
+      <!-- Photo file name exact milayera halnuhos (eg: profile.jpg) -->
+      <img src="./profile.jpg" alt="Susmita Adhikari Profile Picture" class="profile-pic">
+    </div>
+    <h1>Hi, I'm Susmita Adhikari 👋</h1>
+    <p class="subtitle">Computer Engineering Student at Seoul Theological University</p>
+    
+    <button id="demoBtn" class="btn">Click For Demo Feature</button>
+  </header>
+
+  <section id="skills" class="skills-section">
+    <h2>My Technical Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>🌐 Web Dev</h3>
+        <p>HTML5, CSS3, Flexbox & Grid Layouts</p>
+      </div>
+      <div class="skill-card">
+        <h3>🐍 Python</h3>
+        <p>Data Structures, Spyder IDE, Logic Building</p>
+      </div>
+      <div class="skill-card">
+        <h3>🛠️ Tools</h3>
+        <p>VS Code, Git, Interactive Web Tools</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript script.js ko satta sidhai yahan halne: -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const demoBtn = document.getElementById('demoBtn');
+
+      if (demoBtn) {
+        demoBtn.addEventListener('click', () => {
+          alert('Hello Susmita! Interactive features work properly now.');
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
