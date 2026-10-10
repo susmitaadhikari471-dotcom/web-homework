@@ -3,29 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Web Page</title>
+  <title>Susmita Adhikari - Business Card & Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="card">
-    <h1>Adhikari Susmita</h1>
-    <p>Computer Engineering Student<br>Seoul Theological University | Seoul, South Korea</p>
+    <h1 id="profile-name">Susmita Adhikari</h1>
+    <p class="card-info">Computer Engineering Student | Seoul Theological University, Seoul</p>
     
     <div class="details-section">
       <h3>About Me</h3>
-      <p>I am learning web development and Python programming.</p>
+      <p>I am from Nepal, studying Computer Engineering in Seoul. I am passionate about learning web development and Python programming.</p>
     </div>
 
-    <div class="details-section hometown-section">
+    <div class="details-section">
+      <h3>My Favorite Photo</h3>
+      <img src="https://picsum.photos/400/300" alt="A scenic landscape placeholder photo" style="width:100%; border-radius:4px; margin-top:8px;">
+    </div>
+
+    <div class="details-section">
       <h3>My Hometown</h3>
-      <p>My hometown is a beautiful place filled with nature, peaceful environments, and wonderful memories.</p>
+      <p>I grew up in Nepal. It is known for its beautiful scenery, rich culture, and friendly people.</p>
+    </div>
+
+    <div class="details-section">
+      <h3>My Interests & Technologies</h3>
+      <ul style="text-align: left; padding-left: 20px; margin-top: 8px;">
+        <li>HTML5 & Web Standards</li>
+        <li>Python Programming & Spyder IDE</li>
+        <li>Artificial Intelligence & Prompt Engineering</li>
+      </ul>
+    </div>
+
+    <div class="details-section">
+      <h3>Top Goals</h3>
+      <ol style="text-align: left; padding-left: 20px; margin-top: 8px;">
+        <li>Build practical coding skills through assignments</li>
+        <li>Improve web portfolio design</li>
+        <li>Actively participate in class and collaborate with peers</li>
+      </ol>
     </div>
 
     <div class="button-group">
       <button class="btn">Contact Me</button>
       <button class="btn">GitHub</button>
     </div>
+  </div>
+
+  <div class="card" style="margin-top: 30px;">
+    <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+    <form>
+      <p style="text-align: left; margin-bottom: 10px;">
+        <label for="visitor-name">Your Name:</label><br>
+        <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., Susmita Adhikari" required style="width: 100%; padding: 8px; margin-top: 4px;">
+      </p>
+      <p style="text-align: left; margin-bottom: 10px;">
+        <label for="visitor-email">Your Email:</label><br>
+        <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required style="width: 100%; padding: 8px; margin-top: 4px;">
+      </p>
+      <p style="text-align: left; margin-bottom: 10px;">
+        <label for="visitor-message">Message:</label><br>
+        <textarea id="visitor-message" name="visitor-message" rows="4" placeholder="Share your greeting, feedback, or thoughts..." style="width: 100%; padding: 8px; margin-top: 4px;"></textarea>
+      </p>
+      <p>
+        <button type="submit" class="btn" style="width: 100%;">Submit Message</button>
+      </p>
+    </form>
   </div>
 
 </body>
