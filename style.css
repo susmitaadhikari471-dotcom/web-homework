@@ -8,8 +8,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  
-  /* Vertical scroll milna ko lagi min-height ra padding use garne */
   min-height: 100vh;
   display: block; 
   padding: 40px 20px;
@@ -17,39 +15,52 @@ body {
 
 /* Card Styling */
 .card {
-  width: 350px;
+  width: 380px;
   max-width: 100%;
-  margin: 0 auto; /* Center align garna */
+  margin: 0 auto;
   background-color: #ffffff;
   border: 2px solid #333333;
-  padding: 20px;
+  padding: 25px;
   border-radius: 8px;
   text-align: center;
 }
 
 .card h1 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #222222;
 }
 
 .card p {
   font-size: 14px;
   color: #555555;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 1.5;
+}
+
+.details-section {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eeeeee;
+  text-align: left;
+}
+
+.details-section h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333333;
 }
 
 /* Button Group (Horizontal Layout) */
 .button-group {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Buttons bichko space */
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 25px;
 }
 
 .btn {
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-size: 14px;
   background-color: #007bff;
   color: white;
