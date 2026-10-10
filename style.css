@@ -4,14 +4,22 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Card lai bichma rakhna */
+.card {
+  width: 350px;
+  margin: 0 auto; /* Horizontal center garna */
+  background-color: #ffffff;
+  border: 2px solid #333333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 /* Card Styling (Mission 1 Requirements) */
