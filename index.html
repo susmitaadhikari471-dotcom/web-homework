@@ -3,56 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Susmita Adhikari - Business Card & Portfolio</title>
+  <title>Susmita Adhikari - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- 1. Hometown Card (Top ma rakhiyeko) -->
   <div class="card">
-    <h1 id="profile-name">Susmita Adhikari</h1>
-    <p class="card-info">Computer Engineering Student | Seoul Theological University, Seoul</p>
-    
-    <div class="details-section">
-      <h3>About Me</h3>
-      <p>I am from Nepal, studying Computer Engineering in Seoul. I am passionate about learning web development and Python programming.</p>
-    </div>
-
-    <div class="details-section">
-      <h3>My Favorite Photo</h3>
-      <img src="https://picsum.photos/400/300" alt="A scenic landscape placeholder photo" style="width:100%; border-radius:4px; margin-top:8px;">
-    </div>
-
-    <div class="details-section">
-      <h3>My Hometown</h3>
-      <p>I grew up in Nepal. It is known for its beautiful scenery, rich culture, and friendly people.</p>
-    </div>
-
-    <div class="details-section">
-      <h3>My Interests & Technologies</h3>
-      <ul style="text-align: left; padding-left: 20px; margin-top: 8px;">
-        <li>HTML5 & Web Standards</li>
-        <li>Python Programming & Spyder IDE</li>
-        <li>Artificial Intelligence & Prompt Engineering</li>
-      </ul>
-    </div>
-
-    <div class="details-section">
-      <h3>Top Goals</h3>
-      <ol style="text-align: left; padding-left: 20px; margin-top: 8px;">
-        <li>Build practical coding skills through assignments</li>
-        <li>Improve web portfolio design</li>
-        <li>Actively participate in class and collaborate with peers</li>
-      </ol>
-    </div>
-
-    <div class="button-group">
-      <button class="btn">Contact Me</button>
-      <button class="btn">GitHub</button>
-    </div>
+    <h3>My Hometown</h3>
+    <p>I grew up in Nepal. It is known for its beautiful scenery, rich culture, and friendly people.</p>
   </div>
 
-  <div class="card" style="margin-top: 30px;">
-    <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+  <!-- 2. About Me Card -->
+  <div class="card">
+    <h3>About Me</h3>
+    <p>I am from Nepal, studying Computer Engineering in Seoul. I am passionate about learning web development and Python programming.</p>
+  </div>
+
+  <!-- 3. Favorite Photo Card -->
+  <div class="card">
+    <h3>My Favorite Photo</h3>
+    <img src="https://picsum.photos/400/300" alt="A scenic landscape placeholder photo" style="width:100%; border-radius:4px; margin-top:8px;">
+  </div>
+
+  <!-- 4. Interests & Technologies Card -->
+  <div class="card">
+    <h3>My Interests & Technologies</h3>
+    <ul style="text-align: left; padding-left: 20px; margin-top: 8px;">
+      <li>HTML5 & Web Standards</li>
+      <li>Python Programming & Spyder IDE</li>
+      <li>Artificial Intelligence & Prompt Engineering</li>
+    </ul>
+  </div>
+
+  <!-- 5. Top Goals Card -->
+  <div class="card">
+    <h3>Top Goals</h3>
+    <ol style="text-align: left; padding-left: 20px; margin-top: 8px;">
+      <li>Build practical coding skills through assignments</li>
+      <li>Improve web portfolio design</li>
+      <li>Actively participate in class and collaborate with peers</li>
+    </ol>
+  </div>
+
+  <!-- 6. Guestbook / Form Card -->
+  <div class="card">
+    <h2 id="guestbook" style="margin-bottom: 15px;">Leave a Message (Guestbook)</h2>
     <form>
       <p style="text-align: left; margin-bottom: 10px;">
         <label for="visitor-name">Your Name:</label><br>
@@ -70,6 +66,16 @@
         <button type="submit" class="btn" style="width: 100%;">Submit Message</button>
       </p>
     </form>
+  </div>
+
+  <!-- 7. Personal Card / Header Card (Last ma rakhiyeko) -->
+  <div class="card">
+    <h1 id="profile-name">Susmita Adhikari</h1>
+    <p class="card-info">Computer Engineering Student | Seoul Theological University, Seoul</p>
+    <div class="button-group">
+      <button class="btn">Contact Me</button>
+      <button class="btn">GitHub</button>
+    </div>
   </div>
 
 </body>
